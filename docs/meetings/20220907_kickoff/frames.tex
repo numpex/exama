@@ -1,0 +1,193 @@
+%--------------------------------------
+% Create title frame
+\titleframe
+
+%--------------------------------------
+% Table of contents
+\begin{frame}{Overview}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+
+%==============================================
+\section{Introduction}
+%==============================================
+\begin{frame}{\insertsectionhead}
+  \framesubtitle{ExaMA}
+  NUMPEX/ExaMa concentrates on the exascale aspects of the numerical methods, ensuring their scalability to existing and forthcoming hardware.
+  \vfill
+  Leaders: C Prud'homme \& H Barucq
+  \begin{itemize}
+    \item 5 Work packages, may be spit even more
+    \item wide range of topics: 
+    \begin{itemize}
+        \item Modeling and discrtize
+        \item  Linear, multi-linear and coupled solvers at Exascale
+        \item Combine data and  models at Exascale
+        \item Optimize and quantify uncertainties at Exascale
+    \end{itemize}
+    \item Demonstrators through mini-apps will be used to verify the properties of the methods and algorithms developed.
+    
+  \end{itemize}
+\end{frame}
+\begin{frame}{\insertsectionhead}
+    
+   \begin{itemize}
+    \item 10 persons in initial work groups
+    \item other teams consulted on various topics 
+    \item 7 Mio Euros budget
+\end{itemize} 
+\end{frame}
+
+%==============================================
+\section{Status, milestones and Budget}
+%==============================================
+
+\subsection{Status}
+
+\begin{frame}[fragile=singleslide]{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+  \begin{itemize}
+      \item Build WP team
+      \item try to get people from CEA,INRIA,CNRS and University
+      \item try to have both men and women in the steering team
+      \item 2/3 co-lead per WP in charge of specific topics
+      \item Some WPs will be probably further split
+  \end{itemize}
+  \begin{table}[]
+      \centering
+      \begin{tabular}{c|c}
+          WP1 &  S Lanteri, V Faucher C Prud'homme H Barucq\\
+          WP2&  L Grigori, L Giraud ...\\
+          WP3& E Blayo, M Nodet, M Asch \\
+          WP4& C Prieur, J Erhel, V Monbet, Y Privat, M Darbas, H Barucq \\
+          WP5 & CEA/DAM? C Prud'homme
+      \end{tabular}
+      \caption{WP}
+      \label{tab:my_label}
+  \end{table}
+
+\end{frame}
+
+\subsection{Core Sites}
+
+\begin{frame}[fragile=singleslide]{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+  \begin{table}[H]
+    \centering
+    \caption{Core sites}
+    \begin{tabular}{@{} ccc @{}}
+      \toprule
+      \textbf{CEA} & \textbf{University/CNRS}  & \textbf{INRIA} \\
+      \midrule
+      CEA-DAM & Sorbonne Universités  & Inria Paris\\
+      CEA-DES &  Université de Strasbourg &  Inria Bordeaux\\
+      CEA-DRF & Université de Pau/Toulouse & Inria Sofia\\
+      & Université Grenoble Alpes & Inria Lyon\\
+      & Université Paris Saclay	& \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+
+\end{frame}
+\begin{frame}[fragile=singleslide]{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+  
+  Some issues/questions:
+  \begin{itemize}
+      \item potentially a lot of teams interested, find the right level
+      \item any policies about leaders  involvement  and their team?
+  \end{itemize}
+  
+\end{frame}
+%--------------------------------------
+\subsection{Expected results}
+
+\begin{frame}
+  \frametitle{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+  \begin{itemize}
+      \item   Methods, algorithms, and implementations that, taking advantage of the exascale architectures, empower modeling, solving, assimilating model and data, optimizing and quantifying uncertainty, at levels that are unreachable at present.
+    \item Software libraries allowing to assemble specific critical reusable components, hiding the hardware complexity and exposing only the specific methodological interface
+    \item Methodological and Algorithmic Patterns at exascale that can be reused efficiently in large scale applications (eg in weather forecasting)
+    \item Enabling AI algorithms to attain performances at exascale, exploiting the methods (point 1) and the libraries (point 2) developed.
+Demonstrators
+
+  \end{itemize}
+
+
+\end{frame}
+
+\subsection{Milestones}
+
+\begin{frame}
+  \frametitle{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+  \begin{itemize}
+      \item   M1 Select IP-1 use-cases/demonstrators and associate methodology developments T0+6
+\item M2 benchmark IP-1 demonstrators on pre-exascale systems T0+9/T0+12
+\item M3 enable and benchmarks some new exascale  IP-1 components on pre-exascale/exascale systems T0+18, T0+36, T0+54, T0+60
+  \end{itemize}
+
+
+\end{frame}
+
+%==============================================
+\section{Relations}
+%==============================================
+\subsection{Industry}
+\begin{frame}{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+Contacted Entreprises
+\begin{itemize}
+    \item EdF
+    \item Safran
+\end{itemize}
+To be contacted
+\begin{itemize}
+    \item Arkema
+    \item Total
+    \item PlasticOmnium
+    \item Atos
+    \item Entreprises from Consortium Mordicus
+    \item ...
+\end{itemize}
+\end{frame}
+
+\subsection{PEPR}
+\begin{frame}{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+
+\begin{itemize}
+    \item IA
+    \item Diadem ?
+    \item TRACCS-Météo?
+\end{itemize}
+
+Links were made with CMA IA MAIAGE (training), results end of September.
+\end{frame}
+
+\subsection{Europe}
+\begin{frame}{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+\begin{itemize}
+    \item Coe Hidalgo-2 
+    \item ERC-Synergy	EMC2
+    \item EuroHPC	Microcard
+    \item H2020 RIA Digital Twin	Bim2Twin
+    \item CoE	EoCoE-3	
+    \item EuroHPC	European Master for HPC - EUMaster4HPC	
+\end{itemize}
+\end{frame}
+
+\subsection{Interactions with Genci and Tier-0}
+\begin{frame}{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+
+\begin{itemize}
+    \item TBD
+\end{itemize}
+
+\end{frame}
+
