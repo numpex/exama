@@ -1,3 +1,7 @@
+\makeatletter
+\def\input@path{{../../tex/}{../another-directory/}}
+\makeatother
+
 \documentclass[aspectratio=169]{beamer}
 
 % Document metadata
@@ -8,13 +12,13 @@
 \date{\today}
 
 % Image for the title page (use includegraphics option to properly size/place it)
-\titlegraphic{\includegraphics[height=\paperheight]{figures/math-hpc.jpeg}}
+\titlegraphic{\includegraphics[height=\paperheight]{../../figures/math-hpc.jpeg}}
 
 \usetheme[sectionstyle=style2]{trigon}
 
 % Define logos to use (comment if no logo)
-\biglogo{figures/exascale.png} % Used on titlepage only
-\smalllogo{figures/exascale.png} % Used on top right corner of regular frames
+\biglogo{../../figures/exascale.png} % Used on titlepage only
+\smalllogo{../../figures/exascale.png} % Used on top right corner of regular frames
 
 % ------ If you want to change the theme default colors, do it here ------
 %\definecolor{tPrim}{HTML}{00843B}   % Green
