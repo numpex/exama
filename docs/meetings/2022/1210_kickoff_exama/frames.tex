@@ -26,7 +26,7 @@
     \end{itemize}
     \item INRIA B
     \begin{itemize}
-      \item Bordeaux \textbf{Hélène Barucq} (HB) \textbf{Luc Giraud} (LG)
+      \item Bordeaux \textbf{Hélène Barucq} (HB) \textbf{Luc Giraud} (LGi)
       \item  Grenoble \textbf{Arthur Vidard} (AV)
       \item Lille \textbf{El-Ghazali Talbi} (ET)
       \item Paris \textbf{Laura Grigori} (LG)
@@ -125,6 +125,137 @@
   
 \end{frame}
 
+\subsection{WP1: Modeling and Discretization}
+\begin{frame}
+  \frametitle{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+
+  \begin{columns}
+    \column{.5\textwidth}
+    \begin{itemize}
+      \item Geometric representation and their discrete counterparts [B2, B6, B7, B9, B11-B13] 
+      \item physics-based models[B7, B10] 
+      \item AI-driven, data-driven, reduced-order, and more generally surrogate models[B2, B7, B8, B10-B13]
+      \item Multi-fidelity models [B2, B7, B8]
+    \end{itemize}
+    \column{.5\textwidth}
+
+    \begin{alertblock}{Persons Involved}
+      VF, MM, SL, 
+    \end{alertblock}
+    \begin{alertblock}{Proposition}
+    \begin{itemize}
+      \item Extract AI-driven, data-driven, reduced-order, and more generally surrogate models
+      \item need to discuss multifidelity
+    \end{itemize}
+  \end{alertblock}
+
+
+  \end{columns}
+
+
+\end{frame}
+
+\subsection{WP2: Linear, Multi-linear and Coupled Solvers at Exascale}
+\begin{frame}
+  \frametitle{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+  \begin{columns}
+    \column{.5\textwidth}
+    \begin{itemize}
+      \item Acceleration techniques for subspace-based methods [B1, B2, B5, B7, B9-B10].
+      \item High dimensional problems [B1, B2, B5, B7, B10] 
+      \item Randomization [B1, B2, B7, B10]
+      \item Exploiting data-sparsity and multiple precision [B1, B2, B5, B7, B10]
+      \item Adaptive solution strategies for exascale multiphysical and multiscale models [B7, B9-B11] 
+    \end{itemize}
+    \column{.5\textwidth}
+    \begin{alertblock}{Persons Involved}
+      LG, LGi, IR,...  
+    \end{alertblock}
+    \begin{alertblock}{Proposition}
+    \begin{itemize}
+      \item need to include computer algebra people
+      \end{itemize}
+  \end{alertblock}
+  \end{columns}
+
+\end{frame}
+
+\subsection{WP3: Combine data and models at Exascale }
+\begin{frame}
+  \frametitle{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+  \begin{columns}
+    \column{.5\textwidth}
+    [B2, B6, B7, B8, B13]
+    \begin{itemize}
+      \item Deterministic methods
+      \item Stochastic methods
+      \item Observations
+      \item Taking advantage of multi-fidelity modeling
+    \end{itemize}
+    \column{.5\textwidth}
+    \begin{alertblock}{Persons Involved}
+      AV, MA 
+    \end{alertblock}
+    \begin{alertblock}{proposition}
+      \begin{itemize}
+        \item add Inverse Problem to WP 3 (currently in WP 4)
+      \end{itemize}
+    \end{alertblock}
+  \end{columns}
+\end{frame}
+
+\subsection{WP4: Optimize and quantify uncertainty at Exascale }
+\begin{frame}
+  \frametitle{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+  \begin{columns}
+    \column{.5\textwidth}
+    [B6-B8, B10, B13]
+    \begin{itemize}
+      \item Optimization 
+      \begin{itemize}
+        \item shape, dynamic shape optimization
+        \item combinatorial optimization
+        \item policy based optimization
+        \item automated learning/AI for advanced design
+      \end{itemize}
+      \item Uncertainty quantification including 
+      \begin{itemize}
+        \item uncertainty propagation
+        \item sensitivity analysis
+        \item robust inversion
+        \item UQ at different scales
+        \item weak vs strong UQ
+      \end{itemize}
+    \end{itemize}
+    \column{.5\textwidth}
+    \begin{alertblock}{Persons Involved}
+      JG, YP, ET
+    \end{alertblock}
+  \end{columns}
+\end{frame}
+\subsection{WP5: Demonstrate methods and algorithms at Exascale}
+\begin{frame}
+  \frametitle{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+
+  \begin{columns}
+    \column{.5\textwidth}
+    [B1-B13]
+    \begin{itemize}
+      \item Properties Verification on small/mini apps within PC1
+      \item Co-design with the CDT and PC5
+    \end{itemize}
+    \column{.5\textwidth}
+    \begin{alertblock}{Persons Involved}
+      LGr
+    \end{alertblock}
+  \end{columns}
+
+\end{frame}
 \subsection{Status}
 
 \begin{frame}[fragile=singleslide]{\insertsectionhead}
@@ -150,6 +281,8 @@
   \end{table}
 
 \end{frame}
+
+
 
 \subsection{Core Sites}
 
