@@ -12,18 +12,23 @@
 
 
 %==============================================
-\section{ExaMA: Methods and Algorithms at Exascale}
+\section{Exa-MA: Methods and Algorithms at Exascale}
 
-\subsection{ExaMA}
+\subsection{Exa-MA}
 
 \begin{frame}
   \frametitle{Objectives}
 
   \begin{center}
-    Scale up methods and algorithms in predictive simulation data analysis, up to digital twinning, including uncertainty quantification and inverse problems
-
+    \Large Scale up methods and algorithms in predictive simulation data analysis, up to digital twinning, including uncertainty quantification and inverse problems
   \end{center}
-  
+
+  \begin{itemize}
+    \item Produce methods and algorithms 
+    \item Produce patterns
+    \item Produce software
+    \item Produce benchmarks
+  \end{itemize}
 \end{frame}
 
 \subsection{Challenges}
@@ -91,7 +96,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Exama is a Part of the NumPEx Software Stack}
+  \frametitle{Exa-MA is a Part of the NumPEx Software Stack}
 
   \begin{columns}[]
     \begin{column}{.5\linewidth}
@@ -113,24 +118,33 @@
   
 \end{frame}
 \section{Work Packages}
-\subsection{WP1: Modeling and Discretization}
+\subsection{WP1: Discretization}
 \begin{frame}
   \frametitle{\insertsectionhead}
   \framesubtitle{\insertsubsectionhead}
 
-  \begin{columns}
+  \begin{columns}[t]
+    \column{.5\textwidth}
+    Objectives
+    \begin{itemize}
+      \item The Geometric domain representations and their discrete counterparts 
+      \item The physics-based models 
+    \end{itemize}
+    Specifications
+    \begin{itemize}
+      \item Favor high order methods to increase local compute load
+      \item Favor non-conforming methods to reduce communication
+    \end{itemize}
+    \begin{alertblock}{Links}
+      PC2-WP2/3, PC3-WP3 
+    \end{alertblock}
     \column{.5\textwidth}
     \begin{itemize}
-      \item Geometric representation and their discrete counterparts [B2, B6, B7, B9, B11-B13] 
-\
-      \item physics-based models[B7, B10] 
+      \item Geometric representation and their discrete counterparts  including valid mesh generation and adaptive mesh refinement (AMR) 
+      \item Space-Time Discretization of PDEs leveraging non-conforming methods and AMR as well as parallel in time methods
+      \item Multi-Physics and Multiscale coupling[B7, B10] 
     \end{itemize}
-    \column{.5\textwidth}
-  
-  \begin{alertblock}{Data }
-    Links with PC2-WP2/3, PC3-WP3 
 
-  \end{alertblock}
 
   \end{columns}
 \end{frame}
@@ -141,18 +155,32 @@
   \frametitle{\insertsectionhead}
   \framesubtitle{\insertsubsectionhead}
 
-  \begin{columns}
+  \begin{columns}[t]
     \column{.5\textwidth}
+    Objectives
     \begin{itemize}
-      \item AI-driven, data-driven, reduced-order, and more generally surrogate models[B2, B7, B8, B10-B13]
-      \item Multi-fidelity models [B2, B7, B8]
+      \item Develop Reduced order methods 
+      \item Develop methods for multi-fidelity modeling 
     \end{itemize}
+
+      Specifications
+      \begin{itemize}
+        \item Leverage beyond state of the art reduce order, surrogate and machine learning methods
+        \item Enable Multi-fidelity modeling
+      \end{itemize}
     \column{.5\textwidth}
-  
-    \begin{alertblock}{Data}
-    Contributors: SL, EF, HB, CP, JG\\
-    Links with PC2-WP2/3, PC3-WP3
-  \end{alertblock}
+    Tasks
+    \begin{itemize}
+      \item surrogate models based on physics driven deep learning
+      \item PDE operator learning using NN
+      \item data driven model order reduction
+      \item non-intrusive and weakly intrusive reduced basis methods for parametrized PDEs
+      \item mixing low and high fidelity models
+      \item real-time models with super resolution methods
+    \end{itemize}
+    \begin{alertblock}{Links}
+      PC2-WP2/3, PC3-WP3
+    \end{alertblock}
 
   \end{columns}
 \end{frame}
@@ -161,41 +189,64 @@
 \begin{frame}
   \frametitle{\insertsectionhead}
   \framesubtitle{\insertsubsectionhead}
-  \begin{columns}
+  \begin{columns}[t]
     \column{.5\textwidth}
+    Objectives
     \begin{itemize}
-      \item Acceleration techniques for subspace-based methods [B1, B2, B5, B7, B9-B10].
-      \item High dimensional problems [B1, B2, B5, B7, B10] 
-      \item Randomization [B1, B2, B7, B10]
-      \item Exploiting data-sparsity and multiple precision [B1, B2, B5, B7, B10]
-      \item Adaptive solution strategies for exascale multiphysical and multiscale models [B7, B9-B11] 
+      \item Focus on generic building blocks(algebraic) for informations
+      \item Support high dimensional problems
+    \end{itemize}
+    Specifications: enable
+    \begin{itemize}
+      \item Communication avoiding algorithms
+      \item low-precision computing
+      \item matrix-free methods
+      \item operator/data compression
     \end{itemize}
     \column{.5\textwidth}
-
-    \begin{alertblock}{Data}
-    Links with PC2-WP2/3   
+    Tasks
+    \begin{itemize}
+      \item Acceleration techniques for subspace-based methods;
+      \item High dimensional problems ;
+      \item Randomization;
+      \item Exploiting data-sparsity and multiple precision;
+      \item Adaptive solution strategies for exascale multiphysical and multiscale models;
+    \end{itemize}
+    \begin{alertblock}{Links}
+    PC2-WP2/3   
   \end{alertblock}
   \end{columns}
-
 \end{frame}
 
 \subsection{WP4: Combine data and models, inverse problems at Exascale }
 \begin{frame}
   \frametitle{\insertsectionhead}
   \framesubtitle{\insertsubsectionhead}
-  \begin{columns}
+  \begin{columns}[t]
     \column{.5\textwidth}
-    [B2, B6, B7, B8, B13]
+    Objectives
+    \begin{itemize}
+      \item Improve existing deterministic methods 
+      \item  Formulate new stochastic methods. 
+      \item Improve observation strategies.
+      \item Implement multi-fidelity schedules  
+    \end{itemize}
+    Specifications:
+    \begin{itemize}
+      \item combine model and data 
+      \item Enable deterministic and stochastic methods
+    \end{itemize}
+    \column{.5\textwidth}
+    Tasks
     \begin{itemize}
       \item Deterministic methods
       \item Stochastic methods
       \item Observations
       \item Taking advantage of multi-fidelity modeling
-      \item challenges of multi-fidelity in inverse problems: criteria to update reduced models
+      \item challenges of multi-fidelity in inverse problems: criteria to update reduced modelsa
     \end{itemize}
-    \column{.5\textwidth}
-    \begin{alertblock}{Data}
-    Links with PC2-WP2/3,PC3-WP3
+    \begin{alertblock}{Links}
+    PC2-WP2/3,PC3-WP3
   \end{alertblock}
   \end{columns}
 \end{frame}
@@ -206,19 +257,22 @@
   \framesubtitle{\insertsubsectionhead}
   \begin{columns}
     \column{.5\textwidth}
-    [B6-B8, B10, B13]
+    Objective: Design and implement of large scale optimization problems
     \begin{itemize}
-      \item Optimization 
-      \begin{itemize}
-        \item shape, dynamic shape optimization
-        \item combinatorial optimization
-        \item policy based optimization
-        \item automated learning/AI for advanced design
-      \end{itemize}
+      \item combinatorial continuous and mixed optimization
+      \item surrogate-based optimization
+      \item shape optimization 
     \end{itemize}
     \column{.5\textwidth}
-    \begin{alertblock}{data}
-      Links with PC2-WP2/3,PC3-WP2 
+    Specifications
+    \begin{itemize}
+      \item Decomposition-based methods
+      \item Learning-based methods, e.g. surrogate models and multi-fidelity representation
+      \item Auto-tuning for ML
+      \item Reduced order and ML for shape optimization 
+    \end{itemize}
+    \begin{alertblock}{Links}
+      PC2-WP2/3,PC3-WP2 
     \end{alertblock}
   \end{columns}
 \end{frame}
@@ -227,23 +281,32 @@
 \begin{frame}
   \frametitle{\insertsectionhead}
   \framesubtitle{\insertsubsectionhead}
+  \footnotesize
   \begin{columns}
     \column{.5\textwidth}
-    [B6-B8, B10, B13]
+    Objectives
     \begin{itemize}
-      \item Uncertainty quantification including 
-      \begin{itemize}
-        \item uncertainty propagation
-        \item sensitivity analysis
-        \item robust inversion
-        \item UQ at different scales
-        \item weak vs strong UQ
-      \end{itemize}
+      \item Sensitivity analysis for dimension reduction, ranking and more generally understanding the influence of uncertain input parameters.
+       \item  Propagation of uncertainties
+      \item Surrogate modeling for UQ
+      \item Acceleration of the bricks of the UQ process steps by leveraging exascale calculations
     \end{itemize}
-    \column{.5\textwidth}
-    \begin{alertblock}{data}
-      Links with PC2-WP2/3,PC3-WP2/3
+
+    \begin{alertblock}{Links}
+      PC2-WP2/3,PC3-WP2/3
     \end{alertblock}
+    \column{.5\textwidth}
+    Specifications
+      \begin{itemize}
+        \item Extension of kernel methods to complex inputs/outputs
+        \item global sentivitity analysis (GSA) 
+        \item  GSA in the presence of uncontrollable stochastic random input
+        \item Multi-scale GSA in code coupling/chaining
+        \item GSA with complex input 
+        \item  Links between kernel-based sensitivity indices (HSIC, MMD) and total Sobol indices
+      \end{itemize}
+
+
   \end{columns}
 \end{frame}
 
@@ -398,9 +461,11 @@
   \framesubtitle{}
 
   \begin{center}
-    \LARGE We are building the Exa-MA community 
+    \LARGE We are building the Exa-MA community \\[1cm]
+
+    Thank you for your attention!
   \end{center}
-  Questions ?
+  
   
 
 \end{frame}
@@ -410,91 +475,19 @@
 %==============================================
 %==============================================
 \subsection{NumPEx::PC1}
-\begin{frame}{\insertsectionhead}
-  \framesubtitle{ExaMA $\equiv$ PC1 $\equiv$ IP1}
-  NUMPEX/ExaMa concentrates on the exascale aspects of the numerical methods, ensuring their scalability to existing and forthcoming hardware.
-  \vfill
-  Leaders: C Prud'homme \& H Barucq
-  \begin{itemize}
-    \item 5 Work packages
-    \item wide range of topics: 
-    \begin{itemize}
-        \item Modeling and discretize
-        \item Linear, multi-linear and coupled solvers at Exascale
-        \item Combine data and  models at Exascale
-        \item Optimize and quantify uncertainties at Exascale
-    \end{itemize}
-    \item Demonstrators through mini-apps will be used to verify the properties of the methods and algorithms developed.
-  \end{itemize}
-\end{frame}
-
-\subsection{NumPEx::PC1 Team (a work still in progress)}
 
 \begin{frame}
   \frametitle{\insertsectionhead}
   \framesubtitle{\insertsubsectionhead}
 
-  Organismes financés
-  \begin{itemize}
-    \item CEA : DES(1 - 2), DAM (1)
-    \item INRIA : Bordeaux(2-4),  Côte d'Azur (2), Grenoble(1), Lille(1), Paris(1)
-    \item IPP (CMAP, Inria ASCII, Inria POEMS)
-    \item UNISTRA  (IRMA-MOCO/Cemosis, Inria Tonus)
-  \end{itemize}
-
-  \begin{alertblock}{Other teams}
-    \begin{itemize}
-      \item Sorbonne Université ? (LJLL: Y  Maday, S Labbé; LIP6 Theo Marie, P Jolivet)
-      \item ENS Lyon ? (Y Robert, ....) 
-    \end{itemize}
-  \end{alertblock}
-\end{frame}
-
-\subsection{Budget}
-
-\begin{frame}
-  \frametitle{\insertsectionhead}
-  \framesubtitle{\insertsubsectionhead}
-  \begin{itemize}
-    \item si un universitaire est dans une equipe inria financée par Numpex, pas de souci
-    \item Sinon comment collaborer (si necessaire)? Sur les sites, pourra t'on nous appuyer sur les conventions existantes pour 
-    mettre en place des collaborations/des co-financements/..../co-directions/... ?
-    \begin{itemize}
-      \item Bordeaux: 
-      \item Cotes d'Azur : 
-      \item Grenoble : 
-      \item Lille:  : 
-      \item Paris : 
-      \item Saclay : 
-      \item Strasbourg : 
-    \end{itemize}
-  \end{itemize}
-  \alert{Recemment accord cadre inria / cnrs signé}
-
-\end{frame}
-
-\section{Steering team}
-\begin{frame}
-  \frametitle{\insertsectionhead}
-  \framesubtitle{\insertsubsectionhead}
-\scriptsize
+  Partners
   \begin{itemize}
     \item CEA 
-    \begin{itemize}
-      \item DAM \textbf{Lydie Grospellier} (LGr)
-      \item DES \textbf{Vincent Faucher} (VF) \textbf{Isabelle Ramière} (IR)  
-    \end{itemize}
-    \item INRIA 
-    \begin{itemize}
-      \item Bordeaux \textbf{Hélène Barucq} (HB) \textbf{Luc Giraud} (LGi)
-      \item  Grenoble \textbf{Arthur Vidard} (AV)
-      \item Lille \textbf{El-Ghazali Talbi} (ET) 
-      \item Paris \textbf{Laura Grigori} (LG) \textbf{Frédéric Nataf} (FN)
-      \item Sofia \textbf{Stephane Lanteri}(INRIA-Sofia) (SL) 
-    \end{itemize}
-    \item IPP \textbf{Josselin Garnier} \textbf{Marc Massot} (MM) \textbf{Loic Gouarin} (LGo)
-    \item UPICARDIE \textbf{Mark Asch} (MA)
-    \item UNISTRA \textbf{Christophe Prud'homme}(CP) \textbf{Emmanuel Franck} (EF) \textbf{Yannick Privat} (YP)
+    \item INRIA : Bordeaux,  Côte d'Azur, Grenoble, Lille, Paris, Saclay
+    \item IPP 
+    \item Sorbonne Université 
+    \item UNISTRA  
   \end{itemize}
-  \alert{to be completed}
 \end{frame}
+
+
