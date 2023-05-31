@@ -1,0 +1,77 @@
+== Solver Libraries
+.Likelihood-Impact Matrix for Solver Libraries
+|===
+|Likelihood \ Impact|Very High|High|Medium|Low
+
+|Very High||||
+|High||Hypre|Trilinos|
+|Medium||PETSc, STRUMPACK, SuperLU|PARDISO, SPARSKIT, SparsePACK|KokkosKernels
+|Low||BLAS, LAPACK|SuperLU-Dist|
+|===
+
+== Math, Meshing, Discretization & Decomposition
+.Likelihood-Impact Matrix for Math, Meshing, Discretization & Decomposition
+|===
+|Likelihood \ Impact|Very High|High|Medium|Low
+
+|Very High||||
+|High||MFEM||libigl
+|Medium||METIS, ParMETIS||
+|Low||SAMRAI||STK, UMR, Portage, Tangram, Axom, Overlink, Sculpt
+|===
+
+== Compilers, Runtimes and Languages
+.Likelihood-Impact Matrix for Compilers, Runtimes and Languages
+|===
+|Likelihood \ Impact|Very High|High|Medium|Low
+
+|Very High||||
+|High||PyKokkos, Python, TensorFlow||
+|Medium|C++, GCC|MPICH, OpenMPI, Fortran, MPI, HIP, CUDA, OpenMP, PyTorch, Boost, Intel MPI||Kokkos, C
+|Low|RAJA Suite|Flang, Intel Compiler Suite, LLVM|FleCSI, KokkosRemoteMemorySpaces, Perl|Legion
+|===
+
+== System imaging, system monitoring and management
+.Likelihood-Impact Matrix for System imaging, system monitoring and management
+|===
+|Likelihood \ Impact|Very High|High|Medium|Low
+
+|Very High||||
+|High|||CharlieCloud|
+|Medium||LSF||LDMS, Flux, SICM, AppSysFusion, GMI, Maestro/Merlin, Splunk, VmWare
+|Low||SLURM||
+|===
+
+== Visualisation And Analysis
+.Likelihood-Impact Matrix for Visualisation And Analysis
+|===
+|Likelihood \ Impact|Very High|High|Medium|Low
+
+|Very High||||
+|High||Visit, Conduit|Catalyst|Cinema, Ascent
+|Medium||VTK/VTKm, Paraview||
+|Low||||
+|===
+
+== Build, Development and Software Eng.
+.Likelihood-Impact Matrix for Build, Development and Software Eng.
+|===
+|Likelihood \ Impact|Very High|High|Medium|Low
+
+|Very High||||
+|High|git, git-lfs|Spack||
+|Medium|CMake, gdb|Autoconf/Automake, Gitlab, Valgrind, Caliper||Archer, PAPI, KokkosTools, CDash, STAT
+|Low|Ninja|BLT, TotalView|AllineaForge|
+|===
+
+== IO Storage/Data management
+.Likelihood-Impact Matrix for IO Storage/Data management
+|===
+|Likelihood \ Impact|Very High|High|Medium|Low
+
+|Very High||||
+|High||||
+|Medium|HDF5/Parallel-HDF5|NetCDF, pNetCDF, SEACAS, HPSS, MarFS, SILO, Exodus, yamlcpp, ADIOS, szip/AEC||UnifyFS, ZFP, GUFI, HIO, SCR, Sina/Kosh, CGNS, libz, DB2, Matio
+|Low||||
+|===
+

@@ -1,0 +1,25 @@
+= PEPR NumPEx Exa-MA Software analysis
+Exa-MA
+v1.0 2023-05-31
+:toc: macro
+:doctype: book
+:title-page:
+:title-page-background-image: image:media/digital-background.png[]
+:title-page-background-color: #000000
+// :title-logo-image: image:media/logo-csmi.png[top=25%,align=center,pdfwidth=2in]
+:sectnums:
+:toc: left
+:toclevels: 2
+:icons: font
+:icon-set: fab
+
+[.metadata]
+{author} -- version {revnumber}, {revdate}
+
+== Introduction
+
+== Doe Software Analysis
+
+This section describes the software analysis for the DOE Stack for the Exa-MA project.
+
+include::doe-analysis.adoc[]
