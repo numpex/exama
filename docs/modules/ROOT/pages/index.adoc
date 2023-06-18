@@ -1,0 +1,15 @@
+:exama: Exa-MA
+:numpex: NumPEx
+= {project_name}
+
+{exama} is one of the projects of the French initiative for Exascale Computing, {numpex}.
+
+
+
+
+
+
+
+
+
+

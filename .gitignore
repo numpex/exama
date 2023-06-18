@@ -32,4 +32,5 @@ docs/meetings/20220907_kickoff/beamertheme-trigon/source/x.log
 *.synctex.gz
 *.toc
 .DS_Store
-
+cache/
+node_modules/
