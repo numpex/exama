@@ -1,2 +1,3 @@
 # numpex-exama
-Private repo for NumPEX ExaMA integrated project
+
+Repo for NumPEX ExaMA integrated project
