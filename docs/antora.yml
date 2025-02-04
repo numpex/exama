@@ -4,6 +4,18 @@ version: ~
 start_page: index.adoc
 nav:
 - modules/ROOT/nav.adoc
+#- modules/WP0/nav.adoc
+#- modules/WP1/nav.adoc
+#- modules/WP2/nav.adoc
+#- modules/WP3/nav.adoc
+#- modules/WP4/nav.adoc
+#- modules/WP5/nav.adoc
+#- modules/WP6/nav.adoc
+#- modules/WP7/nav.adoc
+asciidoc:
+  attributes:
+    :exama: Exa-MA
+    :numpex: NumPEx
 ext:
   collector:
     - run:
