@@ -1,18 +1,52 @@
 = Our Partners
 
-Exa-MA is supported by a strong consortium of research institutions and industry partners dedicated to advancing exascale computing.
+The Exa-MA project brings together a diverse consortium of research institutions dedicated to advancing exascale computing. We have both “beneficiary” and “non‐beneficiary” partners, along with a grant & consortium agreement structure that ensures smooth collaboration. “Small” partners typically have 1–2 people actively involved, while “large” partners may have 10 or more.
 
-== Consortium Members
+image::consortium.png[Consortium Diagram, 800, role="center", align="center"]
+
+== Overall Composition
+
+* 74 permanent staff  
+* 22 Person-Years (PY) funded through Exa-MA  
+** 22 PY for PhDs  
+** 12 PY for Postdocs  
+** 21 PY for Research Engineers  
+
+== Beneficiary Partners (Large)
+
 * **CEA**
-* **École Polytechnique**
-* **Inria**
-* **Sorbonne Université**
-* **Université de Strasbourg**
+* **Inria**  
+  + Contributing centers in Paris, Bordeaux, Nice, Lille, Strasbourg, Saclay, Grenoble, and Lyon
+* **Université de Strasbourg**  
+  + IRMA, Cemosis
+* **École Polytechnique**  
+  + Centre de Mathématiques Appliquées (CMAP)
+* **Sorbonne Universités**  
+  + LJLL, LIP6
 
-== Associated Partners
-* CNRS (via multiple partner institutions)
-* Université de Picardie, Université de Pau, Université de Lille, etc.
+== Non-Beneficiary “Large” Partner
+
+* **CNRS** (with various institutes supporting the partners above)
+
+== Non-Beneficiary “Small” Partners
+
+* Bordeaux INP
+* ENS Lyon
+* Université Côte d'Azur
+* Université de Lille
+* Université de Lorraine
+* Université de Pau
+* Université de Picardie
+* Université Grenoble Alpes
+* Université Gustave Eiffel
+* Université Panthéon Assas
 
 == External Collaborations
-We collaborate with international partners and industry experts to ensure that our work is aligned with global standards in high-performance computing. 
-For a full list of partners and more details, please contact us.
+
+We also collaborate with international partners and industry experts to maintain alignment with global HPC standards. For a full list of partners or more details, please contact us.
+
+---
+
+NOTE:  
+“Small” means ~1–2 persons involved, “large” means 10 or more persons.  
+The specific role of each partner (beneficiary or non‐beneficiary) may vary, but all contribute to the technical and scientific progress of Exa-MA.
