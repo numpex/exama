@@ -9,6 +9,7 @@ Welcome to the Exa-MA Project website—part of the PEPR NumPEx initiative dedic
 == Overview
 
 Exa-MA is focused on:
+
 * Developing robust algorithms and methods tailored for exascale architectures.
 * Contributing to software libraries that abstract hardware complexity.
 * Integrating AI-driven techniques in simulation, model reduction, and optimization.
