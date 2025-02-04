@@ -1,15 +1,41 @@
-:exama: Exa-MA
-:numpex: NumPEx
-= {project_name}
+= Exa-MA Project Website
+:toc: macro
+:toclevels: 2
+:icons: font
+:source-highlighter: highlight.js
 
-{exama} is one of the projects of the French initiative for Exascale Computing, {numpex}.
+Welcome to the Exa-MA Project website—part of the PEPR NumPEx initiative dedicated to advancing methods and algorithms for exascale computing. Our work spans cutting-edge numerical methods, open-source software libraries, AI integration, and demonstrators that validate our approach to exascale performance.
 
+== Overview
 
+Exa-MA is focused on:
+* Developing robust algorithms and methods tailored for exascale architectures.
+* Contributing to software libraries that abstract hardware complexity.
+* Integrating AI-driven techniques in simulation, model reduction, and optimization.
+* Delivering demonstrators, mini-apps, and proxy apps to showcase our progress.
 
+Learn more about our project on the xref:about.adoc[About] page.
 
+== Explore Exa-MA
 
+For further details, please use the navigation links below:
 
+* xref:workpackages.adoc[Work Packages] – A comprehensive description of our work packages, including WP0 through WP7.
+* xref:team.adoc[Team] – Meet our dedicated researchers, engineers, and PhD students.
+* xref:deliverables.adoc[Deliverables & Publications] – Our key outputs, software toolboxes, and publications.
+* xref:news.adoc[News & Events] – Stay updated on our latest events and announcements.
+* xref:partners.adoc[Partners] – Information on our consortium and external collaborators.
+* xref:contact.adoc[Contact] – How to get in touch with us.
 
+== Latest News
 
+Check out our xref:news.adoc[News & Events] section for updates on recent activities, including our General Assembly and webinar recaps.
 
+== Quick Links
 
+* xref:about.adoc[About Exa-MA]
+* xref:workpackages.adoc[Our Work Packages]
+* xref:team.adoc[Meet the Team]
+* xref:deliverables.adoc[Deliverables & Publications]
+
+We invite you to explore the site and learn more about our contributions to exascale computing.

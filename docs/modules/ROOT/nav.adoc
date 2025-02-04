@@ -1,7 +1,9 @@
-* xref:index.adoc[Introduction]
-* xref:software/index.adoc[Software]
-* xref:antora.adoc[antora environment]
-* xref:vscode.adoc[vscode integration]
-* xref:githubactions.adoc[Github Actions]
-* xref:jupyter.adoc[Jupyter Notebook]
-
+// modules/ROOT/pages/nav.adoc
+* xref:index.adoc[Home]
+* xref:about.adoc[About]
+* xref:workpackages.adoc[Work Packages]
+* xref:team.adoc[Team]
+* xref:deliverables.adoc[Deliverables & Publications]
+* xref:news.adoc[News & Events]
+* xref:partners.adoc[Partners]
+* xref:contact.adoc[Contact]

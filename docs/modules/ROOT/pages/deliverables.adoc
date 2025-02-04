@@ -1,0 +1,16 @@
+= Deliverables & Publications
+
+Exa-MA delivers a wide range of outputs, from software toolboxes and demonstrators to high-impact publications.
+
+== Key Deliverables
+
+Software Toolboxes::
+  Development of libraries for mesh generation, adaptive discretization, and solver components tailored for exascale computing.
+Benchmarking Reports::
+  Comprehensive performance assessments of exascale software stacks, including a benchmarking framework developed under WP7.
+Demonstrators::
+  Mini-apps and proxy-apps that validate our methodologies at scale.
+  
+== Publications
+So far, Exa-MA has produced 13 publications on HAL. Additional publications and reports will be released as the project progresses.
+you can find them xref:https://hal.science/search/index/?q=Exa-MA&rows=30&level0_domain_s=math+OR+info+OR+stat+OR+phys&publicationDateY_i=2025+OR+2024[> here].

@@ -1,0 +1,18 @@
+= Our Partners
+
+Exa-MA is supported by a strong consortium of research institutions and industry partners dedicated to advancing exascale computing.
+
+== Consortium Members
+* **CEA**
+* **École Polytechnique**
+* **Inria**
+* **Sorbonne Université**
+* **Université de Strasbourg**
+
+== Associated Partners
+* CNRS (via multiple partner institutions)
+* Université de Picardie, Université de Pau, Université de Lille, etc.
+
+== External Collaborations
+We collaborate with international partners and industry experts to ensure that our work is aligned with global standards in high-performance computing. 
+For a full list of partners and more details, please contact us.

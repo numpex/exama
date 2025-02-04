@@ -1,0 +1,17 @@
+= Contact Us
+
+For further information or inquiries about the Exa-MA project, please contact our team:
+
+Project Coordinators::
+Christophe Prud'homme - Université de Strasbourg  - Cemosis, IRMA UMR 7501
+Email: christophe.prudhomme@cemosisƒr
++
+Hélène Barucq - Inria Bordeaux Sud-Ouest
+Email: helene.barucq@inria.fr
+
+Project Officer::
+  Lucas Pernollets - CEA
+  Email:
+
+
+You can also follow us on our social media channels and check our [News & Events xref:news.adoc] page for updates.
