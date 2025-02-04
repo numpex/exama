@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Github Actions :: Exa-MA -- Methods and Algorithms for Exascale Computing</title>
-    <link rel="canonical" href="https://numpex.github.io/exama/exama/githubactions.html">
+    <title>About Exa-MA :: Exa-MA -- Methods and Algorithms for Exascale Computing</title>
+    <link rel="canonical" href="https://numpex.github.io/exama/exama/about.html">
     <meta name="generator" content="Antora 3.1.3">
     <link rel="stylesheet" href="../_/css/site.css">
 <link rel="icon" href="../_/img/favicon.ico" type="image/x-icon">
@@ -133,22 +133,28 @@ MathJax.Hub.Config({
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="index.html">Introduction</a>
-  </li>
-  <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="software/index.html">Software</a>
-  </li>
-  <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="antora.html">antora environment</a>
-  </li>
-  <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="vscode.html">vscode integration</a>
+    <a class="nav-link" href="index.html">Home</a>
   </li>
   <li class="nav-item is-current-page" data-depth="1">
-    <a class="nav-link" href="githubactions.html">Github Actions</a>
+    <a class="nav-link" href="about.html">About</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="jupyter.html">Jupyter Notebook</a>
+    <a class="nav-link" href="workpackages.html">Work Packages</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="team.html">Team</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="deliverables.html">Deliverables &amp; Publications</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="news.html">News &amp; Events</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="partners.html">Partners</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="contact.html">Contact</a>
   </li>
 </ul>
   </li>
@@ -181,12 +187,12 @@ MathJax.Hub.Config({
   <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Exa-MA</a></li>
-    <li><a href="githubactions.html">Github Actions</a></li>
+    <li><a href="about.html">About</a></li>
   </ul>
 </nav>
 
   
-    <div class="edit-this-page"><a href="https://github.com/numpex/exama/edit/main/docs/modules/ROOT/pages/githubactions.adoc">Edit this Page</a></div>
+    <div class="edit-this-page"><a href="https://github.com/numpex/exama/edit/main/docs/modules/ROOT/pages/about.adoc">Edit this Page</a></div>
   
   <div class="page-downloads">
   <span class="label">Download as</span>
@@ -207,35 +213,70 @@ MathJax.Hub.Config({
 </aside>
 
 <article class="doc">
-<h1 class="page">Github Actions</h1>
+<h1 class="page">About Exa-MA</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Github actions are setup to</p>
+<p>The Exa-MA project is part of the PEPR NumPEx initiative and aims to push the frontiers of exascale computing by developing cutting-edge numerical methods, algorithms, and software libraries.</p>
+</div>
+<div class="paragraph">
+<p>Our mission includes:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>build the documentation using Antora and upload them to docs.feelpp.org[Feel++ docs] upon any change in the repo.</p>
+<p>Developing advanced methods tailored for exascale architectures.</p>
 </li>
 <li>
-<p>build a sample Feel++ code</p>
+<p>Contributing to open-source software libraries that abstract hardware complexity.</p>
+</li>
+<li>
+<p>Integrating AI techniques for simulation, model reduction, and optimization.</p>
+</li>
+<li>
+<p>Delivering demonstrators, mini-apps, and proxy apps to validate our approaches.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_skipping_a_job"><a class="anchor" href="#_skipping_a_job"></a>1. Skipping a job</h2>
+<h2 id="_consortium_and_funding"><a class="anchor" href="#_consortium_and_funding"></a>1. Consortium and Funding</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>You can skip the CI  by adding the following line in the commit message: <code>[skip ci]</code></p>
+<p>Exa-MA is carried out by a consortium of leading institutions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>CEA</p>
+</li>
+<li>
+<p>École Polytechnique</p>
+</li>
+<li>
+<p>Inria</p>
+</li>
+<li>
+<p>Sorbonne Université</p>
+</li>
+<li>
+<p>Université de Strasbourg</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>You can skip the job that build the documentation  by adding the following line in the commit message: <code>doc skip</code>.</p>
+<p>The project has received a requested budget of 6.255 M€ (paid by ANR) for a total cost of approximately 24.417 M€.
+Our consortium involves partners such as the CNRS and several universities.</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_roadmap"><a class="anchor" href="#_roadmap"></a>2. Roadmap</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>You can skip the job that build the code  by adding the following line in the commit message: <code>code skip</code>.</p>
+<p>A detailed project timeline with milestones, deliverables, and key events is available upon request.
+We continue to work toward the successful deployment of an exascale software ecosystem.</p>
 </div>
 </div>
 </div>
@@ -250,7 +291,7 @@ MathJax.Hub.Config({
                 <img src="../_/img/Logotype-rouge-bleu.png" alt="France 2030 logo" height="50">
             </a>
         </div>
-        <span style="font-size: 0.8rem; color: #9e9e9e">© 2023 <a href="https://www.cemosis.fr" style="text-decoration: underline;">Cemosis</a>, Université de Strasbourg</span>
+        <span style="font-size: 0.8rem; color: #9e9e9e">© 2025 <a href="https://www.cemosis.fr" style="text-decoration: underline;">Cemosis</a>, Université de Strasbourg</span>
     </div>
 </footer>
 <script id="site-script" src="../_/js/site.js" data-ui-root-path="../_"></script>

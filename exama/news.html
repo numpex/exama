@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Exa-MA Notebook :: Exa-MA -- Methods and Algorithms for Exascale Computing</title>
-    <link rel="canonical" href="https://numpex.github.io/exama/exama/jupyter.html">
+    <title>News &amp; Events :: Exa-MA -- Methods and Algorithms for Exascale Computing</title>
+    <link rel="canonical" href="https://numpex.github.io/exama/exama/news.html">
     <meta name="generator" content="Antora 3.1.3">
     <link rel="stylesheet" href="../_/css/site.css">
 <link rel="icon" href="../_/img/favicon.ico" type="image/x-icon">
@@ -133,22 +133,28 @@ MathJax.Hub.Config({
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="index.html">Introduction</a>
+    <a class="nav-link" href="index.html">Home</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="software/index.html">Software</a>
+    <a class="nav-link" href="about.html">About</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="antora.html">antora environment</a>
+    <a class="nav-link" href="workpackages.html">Work Packages</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="vscode.html">vscode integration</a>
+    <a class="nav-link" href="team.html">Team</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="githubactions.html">Github Actions</a>
+    <a class="nav-link" href="deliverables.html">Deliverables &amp; Publications</a>
   </li>
   <li class="nav-item is-current-page" data-depth="1">
-    <a class="nav-link" href="jupyter.html">Jupyter Notebook</a>
+    <a class="nav-link" href="news.html">News &amp; Events</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="partners.html">Partners</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="contact.html">Contact</a>
   </li>
 </ul>
   </li>
@@ -181,12 +187,12 @@ MathJax.Hub.Config({
   <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Exa-MA</a></li>
-    <li><a href="jupyter.html">Jupyter Notebook</a></li>
+    <li><a href="news.html">News &amp; Events</a></li>
   </ul>
 </nav>
 
   
-    <div class="edit-this-page"><a href="https://github.com/numpex/exama/edit/main/docs/modules/ROOT/pages/jupyter.adoc">Edit this Page</a></div>
+    <div class="edit-this-page"><a href="https://github.com/numpex/exama/edit/main/docs/modules/ROOT/pages/news.adoc">Edit this Page</a></div>
   
   <div class="page-downloads">
   <span class="label">Download as</span>
@@ -197,12 +203,6 @@ MathJax.Hub.Config({
         <img class="pdf-file-icon icon" src="../_/img/pdf.svg"/> .pdf
       </a>
     </li>
-      <li>
-        <a href="_attachments/jupyter.ipynb"
-           title="Download Jupyter Notebook" data-toggle="tooltip" data-placement="left" class="jupyter-download">
-          <img class="jupyter-file-icon icon" src="../_/img/jupyter-logo.svg"/> .ipynb
-        </a>
-      </li>
   </ul>
 </div>
 </div>
@@ -213,74 +213,55 @@ MathJax.Hub.Config({
 </aside>
 
 <article class="doc">
-<h1 class="page">Exa-MA Notebook</h1>
+<h1 class="page">News &amp; Events</h1>
 <div id="preamble">
 <div class="sectionbody">
-<div class="paragraph lead">
-<p>This is a Jupyter notebook for the Exa-MA project.</p>
+<div class="paragraph">
+<p>Stay up-to-date with the latest happenings in the Exa-MA project.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_introduction"><a class="anchor" href="#_introduction"></a>1. Introduction</h2>
+<h2 id="_recent_events"><a class="anchor" href="#_recent_events"></a>1. Recent Events</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>You write your notebook in AsciiDoc including LaTeX math and thanks to the <code>:page-jupyter: true</code> attribute, the notebook is converted to a Jupyter notebook when the book is built.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>General Assembly – January 14–15, 2025</strong>
+The Exa-MA consortium gathered at the Université de Strasbourg to review progress, welcome new team members, and discuss future directions. Highlights included updates on WP4 and WP7, along with interactive discussions about cross-work-package collaborations.
+For more details, please refer to the <a href="deliverables.html" class="xref page">Deliverables &amp; Publications</a> page.</p>
+</li>
+<li>
+<p><strong>Webinar Recap – Packaging HPC Software</strong>
+On [insert webinar date], E. Agullo led a webinar on modern packaging strategies using Spack and Guix-HPC, and provided a preview of <strong>feelpp.benchmarking</strong>, our new tool for benchmarking HPC software on EuroHPC systems.
+A full recap is available on our <a href="deliverables.html" class="xref page">Deliverables &amp; Publications</a> page.</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_code_cells"><a class="anchor" href="#_code_cells"></a>2. Code cells</h2>
+<h2 id="_upcoming_events"><a class="anchor" href="#_upcoming_events"></a>2. Upcoming Events</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>You can include code cells in your notebook using the <code>[source,python]</code> block macro.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-python hljs" data-lang="python">import sys, os
-print("Hello, world!")</code></pre>
-</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Training Session on CI/CD &amp; Benchmarking</strong>
+In collaboration with CoE Hidalgo2, we will soon host a training session focused on CI/CD best practices and advanced benchmarking for HPC software. Stay tuned for registration details on the <a href="#">News &amp; Events</a> page.</p>
+</li>
+<li>
+<p><strong>Workshops &amp; Seminars</strong>
+We have a series of upcoming workshops and seminars to foster collaboration and share advances within the Exa-MA and broader NumPEx communities. More details will be announced shortly.</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_feel_code_cells"><a class="anchor" href="#_feel_code_cells"></a>3. Feel++ Code cells</h2>
+<h2 id="_archive"><a class="anchor" href="#_archive"></a>3. Archive</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>You can include Feel++ code cells in your notebook using the <code>[source,python]</code> block macro.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-python hljs" data-lang="python">import feelpp
-app = feelpp.Environment(["myapp"],config=feelpp.globalRepository("myapp"))
-
-geo=feelpp.download( "github:{repo:feelpp,path:feelpp/quickstart/laplacian/cases/feelpp2d/feelpp2d.geo}", worldComm=app.worldCommPtr() )[0]
-print("geo file: {}".format(geo))
-mesh = feelpp.load(feelpp.mesh(dim=2,realdim=2), geo, 0.1)
-
-Xh=feelpp.functionSpace(mesh=mesh, space="Pchv")
-f = Xh.element()
-f.on(range=feelpp.elements(mesh),expr=feelpp.expr("{sin(pi*x)*sin(pi*y),cos(pi*x)*cos(pi*y)}:x:y",row=2,col=1))
-e= feelpp.exporter(mesh=mesh)
-e.add("f",f)
-e.save()</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>You can then visualize the result using the <code>pyvista</code> package as follows:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-python hljs" data-lang="python">from xvfbwrapper import Xvfb
-vdisplay = Xvfb()
-vdisplay.start()
-
-import pyvista as pv
-pv.set_jupyter_backend('panel')
-reader = pv.get_reader("exports/ensightgold/Exporter/Exporter.case")
-mesh = reader.read()
-mesh.plot(scalars="f",show_edges=True)</code></pre>
-</div>
+<p>For a complete list of past events and detailed recaps, please visit our archive section on the <a href="#">News &amp; Events</a> page or contact us for further information.</p>
 </div>
 </div>
 </div>
@@ -295,7 +276,7 @@ mesh.plot(scalars="f",show_edges=True)</code></pre>
                 <img src="../_/img/Logotype-rouge-bleu.png" alt="France 2030 logo" height="50">
             </a>
         </div>
-        <span style="font-size: 0.8rem; color: #9e9e9e">© 2023 <a href="https://www.cemosis.fr" style="text-decoration: underline;">Cemosis</a>, Université de Strasbourg</span>
+        <span style="font-size: 0.8rem; color: #9e9e9e">© 2025 <a href="https://www.cemosis.fr" style="text-decoration: underline;">Cemosis</a>, Université de Strasbourg</span>
     </div>
 </footer>
 <script id="site-script" src="../_/js/site.js" data-ui-root-path="../_"></script>
