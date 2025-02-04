@@ -5,5 +5,6 @@
 * xref:team.adoc[Team]
 * xref:deliverables.adoc[Deliverables & Publications]
 * xref:news.adoc[News & Events]
+* xref:workgroups.adoc[NumPEx Work Groups]
 * xref:partners.adoc[Partners]
 * xref:contact.adoc[Contact]

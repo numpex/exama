@@ -1,0 +1,125 @@
+= NumPEx Transversal Workgroups
+
+// image::numpex-workgroups.png[NumPEx Transversal Workgroups, align="center", width=80%]
+
+The NumPEx program organizes multiple cross-cutting workgroups (WG) that span all of its constituent projects, including Exa-MA. 
+These workgroups foster collaboration, share expertise, and address broad challenges that are relevant to exascale computing as a whole. 
+
+Below is an overview of the key NumPEx workgroups, their leads, and the representatives from Exa-MA.
+
+== Accelerated Architectures and Programming Models
+
+Leads:: S. Thibault, M. Pérache
+
+Focuses on harnessing accelerators (such as GPUs and specialized hardware) and exploring programming models suited for heterogeneous, high-performance architectures. Key objectives include:
+- Evaluating performance and portability across CPU-GPU-FPGA platforms
+- Developing best practices for programming models (MPI+X, OpenMP, etc.)
+- Addressing code modernization and tooling for accelerated computing
+
+Exa-MA Representatives::
+- Philippe Helluy (mailto:helluy@unistra.fr[helluy@unistra.fr])
+- Pierre Jolivet (mailto:pierre@joliv.et[pierre@joliv.et])
+
+== AI
+
+Leads:: T. Moreau, E. Franck, J. Bobin
+
+Addresses the intersection of Artificial Intelligence (AI) and High-Performance Computing (HPC), encompassing:
+- AI for HPC: leveraging ML/AI techniques to enhance HPC workflows (e.g., surrogate modeling, code auto-tuning)
+- HPC for AI: accelerating large-scale AI tasks and deep learning workloads
+- Cross-pollination of methods and shared infrastructure among NumPEx projects
+
+Exa-MA Representatives::
+- Emmanuel Franck (mailto:emmanuel.franck@inria.fr[emmanuel.franck@inria.fr])
+- Philippe Helluy (mailto:helluy@unistra.fr[helluy@unistra.fr])
+- Marianne Clausel (mailto:marianne.clausel@univ-lorraine.fr[marianne.clausel@univ-lorraine.fr])
+
+== Computing Centers
+
+Leads:: F. Bodin, N. Lardjanne
+
+Focuses on the coordination and optimization of national and regional computing centers, aiming to:
+- Streamline resource allocation for large-scale NumPEx simulations
+- Foster infrastructure interoperability and distributed job scheduling
+- Develop joint strategies for data management and transfer
+
+Exa-MA Representatives::
+- Christophe Prud’homme (mailto:christophe.prudhomme@cemosis.fr[christophe.prudhomme@cemosis.fr])
+
+
+== Energy Management and Optimization
+
+Leads:: A. Guermouche, G. Da Costa
+
+Investigates methodologies to measure, optimize, and reduce energy consumption in HPC:
+- Metrics and models for energy usage
+- Energy-aware runtime scheduling and resource allocation
+- Hardware-software co-design to improve energy efficiency
+
+Exa-MA Representatives::
+- Ansar Calloo (mailto:ansar.calloo@cea.fr[ansar.calloo@cea.fr])
+
+== Resilience
+
+Lead:: L. Morin
+
+Aims to ensure reliability and fault tolerance on emerging exascale systems:
+- Checkpoint/restart strategies and advanced fault-tolerant techniques
+- Silent error detection and correction
+- Redundancy and rollback mechanisms
+
+Exa-MA Representative::
+- Yves Robert (mailto:Yves.Robert@inria.fr[Yves.Robert@inria.fr])
+
+== Training
+
+Lead:: M. Krajewski
+
+Coordinates NumPEx’s educational initiatives, including:
+- Courses, tutorials, and workshops on HPC, exascale methods, and specialized topics
+- Dissemination of best practices in software development
+- Fostering the next generation of HPC professionals
+
+Exa-MA Representatives::
+- Sébastien Tordeux (mailto:sebastien.tordeux@inria.fr[sebastien.tordeux@inria.fr])
+- Christophe Prud’homme (mailto:christophe.prudhomme@cemosis.fr[christophe.prudhomme@cemosis.fr])
+
+== Software Production and Integration
+
+Lead:: B. Raffin
+
+Focuses on building robust software engineering practices across NumPEx:
+- Continuous integration/continuous deployment (CI/CD) pipelines
+- Shared libraries, packaging systems, and deployment strategies
+- Ensuring interoperability among various HPC components
+
+Exa-MA Representatives::
+- Christophe Prud’homme (mailto:christophe.prudhomme@cemosis.fr[christophe.prudhomme@cemosis.fr])
+- Loïc Gouarin (mailto:loic.gouarin@polytechnique.edu[loic.gouarin@polytechnique.edu])
+- Pierre Jolivet (mailto:pierre@joliv.et[pierre@joliv.et])
+
+== Gender/Equity/Diversity
+
+Leads:: A.-L. Pelé, V. Grandgirard
+
+Ensures diversity and inclusion principles are integrated throughout NumPEx:
+- Developing policies and guidelines for equitable collaboration
+- Organizing events and discussions that promote diversity in the HPC community
+- Tracking and improving representation metrics within projects
+
+Exa-MA Representative::
+- Arthur Vidard (mailto:Arthur.Vidard@inria.fr[Arthur.Vidard@inria.fr])
+
+== International Collaborations
+
+Lead:: J.-Y. Berthou
+
+Strengthens ties with global HPC initiatives and research partners:
+- Identifying key international joint projects or calls
+- Facilitating researcher exchanges and shared resources
+- Aligning NumPEx with worldwide exascale strategies
+
+Exa-MA Representatives::
+- Hélène Barucq (mailto:helene.barucq@inria.fr[helene.barucq@inria.fr])
+- Christophe Prud’homme (mailto:christophe.prudhomme@cemosis.fr[christophe.prudhomme@cemosis.fr])
+
