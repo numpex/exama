@@ -3,30 +3,51 @@
 Our success is driven by a diverse and talented team of researchers, engineers, and PhD students from leading institutions.
 
 == Work Package Leaders
-* **WP0:** [Leader Name] – Université de Strasbourg
-* **WP1:** [Leader Name] – CEA
-* **WP1:** [Leader Name] – CEA
-* **WP2:** [Leader Name] – Inria
-* **WP3:** [Leader Name] – Inria
-* **WP4:** [Leader Name] – Université de Strasbourg
-* **WP5:** [Leader Name] – Inria
-* **WP6:** Uncertainty Quantification – École Polytechnique
-* **WP7:** Software – Université de Strasbourg
+* **WP0:** Coordination - Hélène Barucq (INRIA), Christophe Prud'homme(UNISTRA)
+* **WP1:** Discretization - Pierre Alliez (INRIA), Isabelle Ramière (CEA)
+* **WP2:** SciML, ROM - Stéphane Lanteri (INRIA), Emmanuel Franck (INRIA)
+* **WP3:** Solvers - Vincent Faucher (CEA), Luc Giraud (INRIA), Frédéric Nataf (CNRS)
+* **WP4:** Inverse Problems Mark Asch (U Picardie), Hélène Barucq (INRIA), Arthur Vidard (INRIA)
+* **WP5:** Optimisation - El-Ghazzali Talbi (U Lille)
+* **WP6:** Uncertainty Quantification - Josselin Garnier (EP), Clément Gauchy (CEA)
+* **WP7:** Software - Christophe Prud'homme (UNISTRA)
 
 == Recruited Personnel
 
-=== PhD Students
-* *Céline van Landeghem* – Micro-swimmers in complex environments (WP1, WP3, WP5)
-* *Nassouradine Mahamat* – Simulation of fluid turbulence and uncertainty quantification (WP6)
-* [Additional PhD candidates...]
+=== WP1
 
-=== Postdoctoral Researchers
-* *Hung Trong* – Model reduction via Neural Galerkin methods for complex PDEs (WP2)
-* *Christos Georgiadis* – Enhancing the Alpha Wrapping algorithm for scalable mesh generation (WP?; see details in his profile)
+- Pierre Dubois (PhD student)
+- Christos Georgiadis (post-doc)
 
-=== Research Engineers
-* *Thomas Saigre* – Digital twin of the human eye, coupling Navier–Stokes with heat transfer and benchmarking with Feel++ (WP7)
-* [Additional research engineers...]
+=== WP2
+
+- Hassan Ballout (PhD student)
+- Daria Hrebenshchykova (PhD student)
+- Alexandre Pugin (PhD student)
+- Hung Truong (post-doc)
+
+=== WP3
+- Antoine Simon (PhD student WP1-WP3)
+
+=== WP4
+
+- Hélène Hénon (PhD student WP4)
+
+=== WP5
+
+- Amaury Bélières (PhD student WP5)
+
+=== WP6
+
+- Mahamat Nassouradine (PhD student WP6)
+
+=== WP7
+
+- Sébastien Dubois (Research Engineer WP7-WP1)
+- Alexandre Hoffmann (Research Engineer WP7-WP1)
+- Thomas Saigre (Research Engineer WP7-WP1)
+- Raphael Zanella (Research Engineer WP7-WP3)
+
 
 == YoungPEx
 Our new group, YoungPEx, is dedicated to early-career researchers and fosters collaboration and innovation across the consortium.
