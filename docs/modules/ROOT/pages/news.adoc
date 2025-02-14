@@ -10,9 +10,8 @@ Stay up-to-date with the latest happenings in the Exa-MA project.
   The Exa-MA consortium gathered at the Université de Strasbourg to review progress, welcome new team members, and discuss future directions. Highlights included updates on WP4 and WP7, along with interactive discussions about cross-work-package collaborations.  
   more details available  xref:news/2025/20250114-15-ag.adoc[> here].
 
-* **Webinar Recap – Packaging HPC Software**  
-  On [insert webinar date], E. Agullo led a webinar on modern packaging strategies using Spack and Guix-HPC, and provided a preview of *feelpp.benchmarking*, our new tool for benchmarking HPC software on EuroHPC systems.  
-  A full recap is available on our xref:deliverables.adoc[Deliverables & Publications] page.
+* **Webinar Recap – Packaging HPC Software - Dec 3, 2025 **  
+  E. Agullo (INRIA) led a webinar on modern packaging strategies using Spack and Guix-HPC, and J. Cladellas (UNISTRA) provided a preview of https://github.com/feelpp/benchmarking/[*feelpp.benchmarking*], a new tool for benchmarking HPC software on EuroHPC systems, see for example https://bench.feelpp.org[bench.feelpp.org] website generated using the tool for the toolboxes of Feel++
 
 == Upcoming Events
 
