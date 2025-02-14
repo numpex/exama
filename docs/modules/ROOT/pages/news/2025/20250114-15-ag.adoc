@@ -1,0 +1,64 @@
+= Account of the Exa-MA Project General Assembly
+:doctype: article
+:icons: font
+:sectnums:
+:source-highlighter: highlight.js
+:revnumber: 1.0
+:revdate: 2025-01-15
+
+On January 14 and 15, 2025, the Exa-MA project met for a General Assembly rich in exchanges and perspectives. 
+This event, held at the University of Strasbourg, gathered 83 participants – including members of the Scientific Board, external partners, and young recruits – with 15 joining online, to share progress, strengthen collaboration among the Work Packages (WPs), and plan the next steps of the program.
+
+== Program
+
+=== Tuesday, January 14, 2025
+
+* **Welcome and General Presentations:**  
+  The day began with a welcome coffee followed by an overall presentation of NumPex and Exa-MA, led by Hélène Barucq and Christophe Prud'homme, including a Q&A session.
+  
+* **Highlighting the New Recruits:**  
+  Several sessions were dedicated to introducing new recruits from different areas (CMAP, internal teams, etc.), showcasing the dynamism and renewal within the project.
+
+* **Transversal Workshops and Exchanges:**  
+  Plenary workshops and breakout sessions addressed intra-project interactions – notably around Exa-Soft and Exa-DI – as well as topics specific to the transversal groups on AI and accelerators.
+
+* **Meeting of the Scientific Board:**  
+  At the end of the day, the Board convened to discuss strategic orientations and challenges related to the various Work Packages.
+
+The day concluded with a convivial dinner with informal exchanges among participants.
+
+=== Wednesday, January 15, 2025
+
+* **Workshop on External Interactions:**  
+  The morning was dedicated to a plenary workshop led by Hélène Barucq and Christophe Prud'homme, focusing on interactions with external partners, thereby reinforcing Exa-MA's collaborative scope.
+
+* **Parallel Sessions and Feedback:**  
+  Three parallel workshops addressed the following themes:
+  
+  - **WP1 and WP3:**  
+    Challenges of discretization, solvers, and mesh generation/partitioning, with particular emphasis on multiphysics couplings.
+  
+  - **WP2 and WP5:**  
+    Focused on optimization and artificial intelligence, with perspectives ahead of the next NumPex call.
+  
+  - **WP4 and WP6:**  
+    Convergence between inversion, uncertainty quantification, and visualization of data in very high-dimensional spaces, linked to various applications (geosciences, medical imaging, etc.).
+
+* **Conclusion and Informal Exchanges:**  
+  The day ended with a feedback session, followed by informal exchanges that helped consolidate synergies among the WPs and identify new avenues for collaboration.
+
+== Key Points and Perspectives
+
+* **Strengthening Internal Collaboration:**  
+  The workshops and discussions highlighted the complementarity between the various Exa-MA WPs. Initiatives such as collectively drafting state-of-the-art reviews and coordinating thesis supervision were mentioned to further reinforce the project's synergy.
+
+* **Focus on the Software Ecosystem and Reproducibility:**  
+  Discussions underscored the importance of a robust software ecosystem, integrating CICD pipelines and modern tools (SPACK, GUIX HPC, containers) to ensure the sustainability of developments at the exascale level.
+
+* **Involvement of External Partners:**  
+  The meeting helped solidify ties with industrial and academic partners through dedicated workshops and the planning of future events, to better disseminate the project's progress.
+
+== Documentation and Support Materials
+
+Presentation slides, photos, and the full notes from the General Assembly are available for further consultation.
+
