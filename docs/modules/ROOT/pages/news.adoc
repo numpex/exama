@@ -8,7 +8,7 @@ Stay up-to-date with the latest happenings in the Exa-MA project.
 
 * **General Assembly – January 14–15, 2025**  
   The Exa-MA consortium gathered at the Université de Strasbourg to review progress, welcome new team members, and discuss future directions. Highlights included updates on WP4 and WP7, along with interactive discussions about cross-work-package collaborations.  
-  For more details, please refer to the xref:deliverables.adoc[Deliverables & Publications] page.
+  more details available  xref:news/2025/20250114-15-ag.adoc[> here].
 
 * **Webinar Recap – Packaging HPC Software**  
   On [insert webinar date], E. Agullo led a webinar on modern packaging strategies using Spack and Guix-HPC, and provided a preview of *feelpp.benchmarking*, our new tool for benchmarking HPC software on EuroHPC systems.  
@@ -16,8 +16,8 @@ Stay up-to-date with the latest happenings in the Exa-MA project.
 
 == Upcoming Events
 
-* **Training Session on CI/CD & Benchmarking**  
-  In collaboration with CoE Hidalgo2, we will soon host a training session focused on CI/CD best practices and advanced benchmarking for HPC software. Stay tuned for registration details on the xref:news.adoc[News & Events] page.
+* **Training Session on CI/CD & Benchmarking - March 24,25,26 **   
+  In collaboration with CoE Hidalgo2, we will soon host a training session focused on CI/CD best practices and advanced benchmarking for HPC software. Here is the https://events.it4i.cz/event/308/overview[training page].
 
 * **Workshops & Seminars**  
   We have a series of upcoming workshops and seminars to foster collaboration and share advances within the Exa-MA and broader NumPEx communities. More details will be announced shortly.
