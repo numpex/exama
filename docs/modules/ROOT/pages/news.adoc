@@ -13,7 +13,7 @@ Stay up-to-date with the latest happenings in the Exa-MA project.
 
 == Upcoming Events
 
-* **SciML'25 - March 24-25-26 **   Several colleagues from the Exa-MA project are set to attend the SCIML25 conference at Politecnico di Milano. Notably, our colleague Emmanuel Franck – leader of WP2 – is invited speaker. The conference, organized by Politecnico di Milano, promises to be a stimulating forum for discussing cutting-edge research in scientific machine learning, including both academia and industry. It will provide an excellent platform for exchanging ideas on topics such as optimal transport, AI, and high-performance computing, all of which are central to our project’s objectives. For more details about the event, please visit the official website: https://www.mate.polimi.it/events/EMS-TAG-SciML-25/ [source].
+* **SciML'25 - March 24-25-26 **   Several colleagues from the Exa-MA project are set to attend the SCIML25 conference at Politecnico di Milano. Notably, our colleague Emmanuel Franck – leader of WP2 – is invited speaker. The conference, organized by Politecnico di Milano, promises to be a stimulating forum for discussing cutting-edge research in scientific machine learning, including both academia and industry. It will provide an excellent platform for exchanging ideas on topics such as optimal transport, AI, and high-performance computing, all of which are central to our project’s objectives. For more details about the event, please visit the  https://www.mate.polimi.it/events/EMS-TAG-SciML-25/[> official website].
 
 
 * **Training Session on CI/CD & Benchmarking - March 24,25,26 **   
