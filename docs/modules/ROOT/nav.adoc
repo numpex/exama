@@ -8,3 +8,4 @@
 * xref:workgroups.adoc[NumPEx Work Groups]
 * xref:partners.adoc[Partners]
 * xref:contact.adoc[Contact]
+//* xref:software/index.adoc[Software]

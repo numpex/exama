@@ -1,10 +1,11 @@
 import pandas as pd
 import os
 df = pd.read_excel('software.xlsx')
+df_packaging = pd.read_excel('software.xlsx', sheet_name='Packaging')
 
-def generate_asciidoc(row):
+def generate_asciidoc(row,packaging_row):
     adoc = f"= {row['Name']} Package\n\n"
-
+    print(f"using packaging row: {packaging_row}")
     description = row.get('Description', '') or ''
     description = description.strip() if pd.notnull(description) else ''
 
@@ -14,6 +15,18 @@ def generate_asciidoc(row):
     docs = str(row.get('Docs', '') or '').strip()
     channels = str(row.get('Channels', '') or '').strip()
     apis = str(row.get('API', '') or '').lower()
+
+    # packaging info
+    package_spack = packaging_row.get('Spack Info Source', '') or ''
+    package_spack = package_spack.strip() if pd.notnull(package_spack) else ''
+    package_guix = packaging_row.get('Guix-HPC Info Source', '') or ''
+    package_guix = package_guix.strip() if pd.notnull(package_guix) else ''
+    package_petsc = packaging_row.get('PETSc Info Source', '') or ''
+    package_petsc = package_petsc.strip() if pd.notnull(package_petsc) else ''
+    package_docker = packaging_row.get('Docker Info Source', '') or ''
+    package_docker = package_docker.strip() if pd.notnull(package_docker) else ''
+    package_apptainer = packaging_row.get('Apptainer Info Source', '') or ''
+    package_apptainer = package_apptainer.strip() if pd.notnull(package_apptainer) else ''
 
     adoc += f"== Description\n\n"
     if description:
@@ -27,6 +40,27 @@ def generate_asciidoc(row):
     adoc += f"* [{'x' if any(repo in devops for repo in ['Spack', 'GUIX', 'Debian', 'Ubuntu', 'Fedora']) else ' '}] Packages published in easily usable repositories\n"
     adoc += f"* [{'x' if 'supercomputers' in devops.lower() else ' '}] Packages installation tested on supercomputers\n"
     adoc += f"* [{'x' if any(c in devops for c in ['Spack', 'GUIX']) else ' '}] Packages available in community repositories\n\n"
+    if package_spack:
+        print(f"Package Spack: {package_spack}")
+        adoc += f"  - Spack: {package_spack}\n"
+    if package_guix:
+        adoc += f"  - Guix: {package_guix}\n"
+    if package_petsc:
+        adoc += f"  - PETSc: {package_petsc}\n"
+    if package_docker:
+        adoc += f"  - Docker: {package_docker}\n"
+    if package_apptainer:
+        adoc += f"  - Apptainer: {package_apptainer}\n"
+
+    # Extracting all packaging types from 'devops'
+    package_types = [pkg.strip().replace('Packages - ', '')
+                     for pkg in devops.split(',') if 'Packages -' in pkg]
+
+    if package_types:
+        adoc += "\nAvailable packages:\n\n"
+        for pkg in package_types:
+            adoc += f"- {pkg}\n"        
+    adoc += "\n"
 
     adoc += "== Minimal Validation Tests\n\n"
     adoc += "Software should include minimal validation tests triggered through automated mechanism such as Guix. These tests should be automatic functional tests that do not require specific hardware.\n\n"
@@ -112,13 +146,14 @@ def generate_asciidoc(row):
 nav_entries = []
 
 for index, row in df.iterrows():
+    packaging_row = df_packaging.iloc[index]
     benchmarked = pd.notnull(row.get('Benchmarked')) and str(row['Benchmarked']).strip().upper()
     licensed = pd.notnull(row.get('License')) and str(row['License']).strip()
     packaged = pd.notnull(row.get('DevOps')) and str(row['DevOps']).strip()
     if benchmarked and benchmarked != 'NOT YET' and licensed and packaged:
         print(f"Generating asciidoc for {row['Name']}...")
-        asciidoc = generate_asciidoc(row)
-        filename = f"../../modules/ROOT/pages/software/{row['Name'].lower().replace('/', '_').replace('+', 'p').replace(' ', '_')}.adoc"
+        asciidoc = generate_asciidoc(row,packaging_row)
+        filename = f"../../modules/software/pages/{row['Name'].lower().replace('/', '_').replace('+', 'p').replace(' ', '_')}.adoc"
         with open(filename, 'w') as file:
             file.write(asciidoc)
         print(f"Generated {filename}")
