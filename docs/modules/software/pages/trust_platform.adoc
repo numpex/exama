@@ -89,6 +89,6 @@ Each repository should include information enabling downstream users to know whi
 Software should include a minimal set of performance tests divided in three categories: single node without specific hardware, single node with specific hardware, multi-nodes. These tests should be automated as much as possible.
 
 * [x] Tests exist
-* [ ] Scripts to automate tests on supercomputers
+* [x] Scripts to automate tests on supercomputers
 * [ ] Scripts/tools easing portability to new hardware
 
