@@ -1,5 +1,6 @@
 * Software
 ** xref:index.adoc[WP7]
+** xref:concepts.adoc[Concepts]
 ** Software List
 *** xref:arcane.adoc[Arcane]
 *** xref:cgal.adoc[CGAL]
